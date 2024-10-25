@@ -19,6 +19,11 @@ SMODS.Joker:take_ownership('j_luchador', {
 	loc_txt = {
 		['en-us'] = {
 			name = "El Primoo!!",
+			text = {
+                    "Sell this card to",
+                    "disable the current",
+                    "{C:attention}Boss Blind{}",
+                }
 		},
 		['it'] = {
 			name = "El Primoo!!",
@@ -31,5 +36,138 @@ SMODS.Joker:take_ownership('j_luchador', {
 	}
 })
 
+SMODS.Joker:take_ownership('j_gros_michel', {
+	loc_txt = {
+		['en-us'] = {
+                name="Chiquita's Gros Michel",
+                text = {
+                    "{C:mult}+#1#{} Mult",
+                    "{C:green}#2# in #3#{} chance this",
+                    "card is destroyed",
+                    "at end of round"
+                }
+         },
+		 ['it'] = {
+			name = "Chiquita's Gros Michel",
+                text = {
+                    "{C:mult}+#1#{} Molt",
+                    "{C:green}#2# probabilità su #3#{} che",
+                    "questa carta venga distrutta",
+                    "alla fine del round",
+                },
+		},
+	}
+})
+
+SMODS.Joker:take_ownership('j_burglar', {
+	loc_txt = {
+		['en-us'] = {
+            name = "Beagle Boy 176-761",
+                text = {
+                    "When {C:attention}Blind{} is selected,",
+                    "gain {C:blue}+#1#{} Hands and",
+                    "{C:attention}lose all discards"
+                }
+         },
+		 ['it'] = {
+			name="Bassotto 176-761",
+                text={
+                    "Quando selezioni un {C:attention}buio{},",
+                    "guadagni {C:blue}+#1#{} mani e",
+                    "{C:attention}perdi tutti gli scarti",
+                },
+		},
+	}
+})
+
+SMODS.Joker:take_ownership('j_cavendish', {
+	loc_txt = {
+		['en-us'] = {
+            name = "Cattelan's Cavendish",
+                text = {
+                    "{X:mult,C:white} X#1# {} Mult",
+                    "{C:green}#2# in #3#{} chance this",
+                    "card is destroyed",
+                    "at end of round"
+                }
+         },
+		 ['it'] = {
+			name="Cavendish di Cattelan",
+                text={
+                    "{X:mult,C:white} X#1# {} Molt",
+                    "{C:green}#2# probabilità su #3#{} che",
+                    "questa carta venga distrutta",
+                    "alla fine del round",
+                },
+		},
+	}
+})
+
+SMODS.Joker:take_ownership('j_vampire', {
+	loc_txt = {
+		['en-us'] = {
+            name = "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+            text = {
+                "This Joker gains {X:mult,C:white} X#1# {} Mult",
+                "per scoring {C:attention}Enhanced card{} played,",
+                "removes card {C:attention}Enhancement",
+                "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)"
+            }
+         },
+		 ['it'] = {
+			name="Kiss-Shot Acerola-Orion Heart-Under-Blade",
+            text={
+                "Questo Jolly ottiene {X:mult,C:white} X#1# {} Molt",
+                "per ogni {C:attention}carta potenziata{} da punti giocata",
+                "e rimuove il {C:attention}potenziamento",
+                "{C:inactive}(Attualmente {X:mult,C:white} X#2# {C:inactive} Molt)",
+            },
+		},
+	}
+})
+
+SMODS.Joker:take_ownership('j_midas_mask', {
+	loc_txt = {
+		['en-us'] = {
+            name = "Stone Mask",
+            text = {
+                "All played {C:attention}face{} cards",
+                "become {C:attention}Gold{} cards",
+                "when scored",
+            }
+         },
+		 ['it'] = {
+			name="Maschera di Pietra",
+            text={
+                "Tutte le {C:attention}figure{} giocate",
+                "diventano carte {C:attention}dorate{}",
+                "quando assegnano punti",
+            },
+		},
+	}
+})
+
+SMODS.Joker:take_ownership('j_campfire', {
+	loc_txt = {
+		['en-us'] = {
+            name = "Space Campfire",
+            text = {
+                "This Joker gains {X:mult,C:white}X#1#{} Mult",
+                "for each card {C:attention}sold{}, resets",
+                "when {C:attention}Boss Blind{} is defeated",
+                "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)"
+            }
+         },
+		 ['it'] = {
+			name="Falò spaziale",
+            text={
+                "Questo Jolly guadagna {X:mult,C:white}X#1#{} Molt",
+                "per ogni carta {C:attention}venduta{}, si ripristina",
+                "quando sconfiggi il {C:attention}buio boss{}",
+                "{C:inactive}(Attualmente {X:mult,C:white} X#2# {C:inactive} Molt)",
+            },
+		},
+	}
+})
 ----------------------------------------------
 ------------MOD CODE END----------------------
