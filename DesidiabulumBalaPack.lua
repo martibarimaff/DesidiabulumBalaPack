@@ -48,7 +48,7 @@ SMODS.Joker:take_ownership('j_gros_michel', {
                 }
          },
 		 ['it'] = {
-			name = "Chiquita's Gros Michel",
+			name = "Gros Michel Chiquita",
                 text = {
                     "{C:mult}+#1#{} Molt",
                     "{C:green}#2# probabilità su #3#{} che",
@@ -165,6 +165,27 @@ SMODS.Joker:take_ownership('j_campfire', {
                 "per ogni carta {C:attention}venduta{}, si ripristina",
                 "quando sconfiggi il {C:attention}buio boss{}",
                 "{C:inactive}(Attualmente {X:mult,C:white} X#2# {C:inactive} Molt)",
+            },
+		},
+	}
+})
+
+SMODS.Joker:take_ownership('j_smiley', {
+	loc_txt = {
+		['en-us'] = {
+            name = "Smiley Sprout",
+            text = {
+                "Played {C:attention}face{} cards",
+                "give {C:mult}+#1#{} Mult",
+                "when scored"
+            }
+         },
+		 ['it'] = {
+			name="Sprout sorridente",
+            text={
+                "Le {C:attention}figure{} giocate",
+                "danno {C:mult}+#1#{} Molt",
+                "quando assegnano punti",
             },
 		},
 	}
