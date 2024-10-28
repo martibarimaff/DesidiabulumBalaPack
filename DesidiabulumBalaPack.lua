@@ -15,6 +15,153 @@ SMODS.Atlas{key = "Joker", path = "JokersDDB.png", px = 71, py = 95, prefix_conf
 SMODS.Atlas{key = "Tarot", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
 SMODS.Atlas{key = "Planet", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
 
+--Parte di correzione traduzione italiana
+
+SMODS.Tag:take_ownership('tag_handy', {
+	loc_txt = {
+		['en-us'] = {
+			name="Handy Tag",
+                text={
+                    "Gives {C:money}$#1#{} per played",
+                    "{C:blue}hand{} this run",
+                    "{C:inactive}(Will give {C:money}$#2#{C:inactive})",
+                },
+		},
+		['it'] = {
+			name="Patto maneggevole",
+                text={
+                    "Dà {C:money}$#1#{} per",
+                    "{C:blue}mano{} giocata in questa sessione",
+                    "{C:inactive}(Darà {C:money}$#2#{C:inactive})",
+                },
+		},		
+	}
+})
+
+SMODS.Tag:take_ownership('tag_rare', {
+	loc_txt = {
+		['en-us'] = {
+			name="Rare Tag",
+                text={
+                    "Shop has a free",
+                    "{C:red}Rare Joker",
+                },
+		},
+		['it'] = {
+			name="Patto raro",
+                text={
+                    "Il prossimo negozio ha un",
+                    "{C:red}Jolly raro{} gratuito",
+                },
+		},		
+	}
+})
+
+SMODS.Tag:take_ownership('tag_uncommon', {
+	loc_txt = {
+		['en-us'] = {
+			name="Uncommon Tag",
+                text={
+                    "Shop has a free",
+                    "{C:green}Uncommon Joker",
+                },
+		},
+		['it'] = {
+			name="Patto non comune",
+                text={
+                    "Il prossimo negozio ha un",
+                    "{C:green}Jolly non comune{} gratuito",
+                },
+		},		
+	}
+})
+
+SMODS.Tag:take_ownership('tag_polychrome', {
+	loc_txt = {
+		['en-us'] = {
+			name="Polychrome Tag",
+                text={
+                    "Next base edition shop",
+                    "Joker is free and",
+                    "becomes {C:dark_edition}Polychrome",
+                },
+		},
+		['it'] = {
+			name="Patto policromo",
+                text={
+                    "Il prossimo Jolly edizione base",
+					"nel negozio è gratuito e",
+                    "diventa {C:dark_edition}policromo",
+                },
+		},		
+	}
+})
+
+SMODS.Tag:take_ownership('tag_negative', {
+	loc_txt = {
+		['en-us'] = {
+			name="Negative Tag",
+                text={
+                    "Next base edition shop",
+                    "Joker is free and",
+                    "becomes {C:dark_edition}Negative",
+                },
+		},
+		['it'] = {
+			name="Patto negativo",
+                text={
+					"Il prossimo Jolly edizione base",
+					"nel negozio è gratuito e",
+                    "diventa {C:dark_edition}negativo",
+                },
+		},		
+	}
+})
+
+SMODS.Tag:take_ownership('tag_foil', {
+	loc_txt = {
+		['en-us'] = {
+			name="Foil Tag",
+                text={
+                    "Next base edition shop",
+                    "Joker is free and",
+                    "becomes {C:dark_edition}Foil",
+                },
+		},
+		['it'] = {
+			name="Patto foil",
+                text={
+                    "Il prossimo Jolly edizione base",
+					"nel negozio è gratuito e",
+                    "diventa {C:dark_edition}foil",
+                },
+		},		
+	}
+})
+
+SMODS.Tag:take_ownership('tag_holo', {
+	loc_txt = {
+		['en-us'] = {
+			name="Holographic Tag",
+                text={
+                    "Next base edition shop",
+                    "Joker is free and",
+                    "becomes {C:dark_edition}Holographic",
+                },
+		},
+		['it'] = {
+			name="Patto olografico",
+                text={
+                    "Il prossimo Jolly edizione base",
+					"nel negozio è gratuito e",
+                    "diventa {C:dark_edition}olografico",
+                },
+		},		
+	}
+})
+
+--Parte di MOD
+
 SMODS.Joker:take_ownership('j_luchador', {
 	loc_txt = {
 		['en-us'] = {
