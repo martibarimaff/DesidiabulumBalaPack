@@ -194,7 +194,9 @@ SMODS.Joker:take_ownership('j_smiley', {
 })
 
 ----------------------------------------------------------Planets----------------------------------------------------------
+--Does not word idk why
 
+--[[
 SMODS.Planet:take_ownership('c_eris', {
     loc_txt = {
         ['en-us'] = {
@@ -240,5 +242,6 @@ SMODS.Planet:take_ownership('c_ceres', {
         },
     }
 })
+]]--
 ----------------------------------------------
 ------------MOD CODE END----------------------
