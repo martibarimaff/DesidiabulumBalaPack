@@ -11,248 +11,103 @@
 
 sendDebugMessage("Launching DesidiabulumBalaPack...")
 
-SMODS.Atlas{key = "Joker", path = "JokersDDB.png", px = 71, py = 95, prefix_config = { key = false } }
-SMODS.Atlas{key = "Tarot", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
-SMODS.Atlas{key = "Planet", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
+SMODS.Atlas { key = "Joker", path = "JokersDDB.png", px = 71, py = 95, prefix_config = { key = false } }
+SMODS.Atlas { key = "Tarot", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
+SMODS.Atlas { key = "Planet", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
 
---Parte di correzione traduzione italiana
-
-SMODS.Tag:take_ownership('tag_handy', {
-	loc_txt = {
-		['en-us'] = {
-			name="Handy Tag",
-                text={
-                    "Gives {C:money}$#1#{} per played",
-                    "{C:blue}hand{} this run",
-                    "{C:inactive}(Will give {C:money}$#2#{C:inactive})",
-                },
-		},
-		['it'] = {
-			name="Patto maneggevole",
-                text={
-                    "Dà {C:money}$#1#{} per",
-                    "{C:blue}mano{} giocata in questa sessione",
-                    "{C:inactive}(Darà {C:money}$#2#{C:inactive})",
-                },
-		},		
-	}
-})
-
-SMODS.Tag:take_ownership('tag_rare', {
-	loc_txt = {
-		['en-us'] = {
-			name="Rare Tag",
-                text={
-                    "Shop has a free",
-                    "{C:red}Rare Joker",
-                },
-		},
-		['it'] = {
-			name="Patto raro",
-                text={
-                    "Il prossimo negozio ha un",
-                    "{C:red}Jolly raro{} gratuito",
-                },
-		},		
-	}
-})
-
-SMODS.Tag:take_ownership('tag_uncommon', {
-	loc_txt = {
-		['en-us'] = {
-			name="Uncommon Tag",
-                text={
-                    "Shop has a free",
-                    "{C:green}Uncommon Joker",
-                },
-		},
-		['it'] = {
-			name="Patto non comune",
-                text={
-                    "Il prossimo negozio ha un",
-                    "{C:green}Jolly non comune{} gratuito",
-                },
-		},		
-	}
-})
-
-SMODS.Tag:take_ownership('tag_polychrome', {
-	loc_txt = {
-		['en-us'] = {
-			name="Polychrome Tag",
-                text={
-                    "Next base edition shop",
-                    "Joker is free and",
-                    "becomes {C:dark_edition}Polychrome",
-                },
-		},
-		['it'] = {
-			name="Patto policromo",
-                text={
-                    "Il prossimo Jolly edizione base",
-					"nel negozio è gratuito e",
-                    "diventa {C:dark_edition}policromo",
-                },
-		},		
-	}
-})
-
-SMODS.Tag:take_ownership('tag_negative', {
-	loc_txt = {
-		['en-us'] = {
-			name="Negative Tag",
-                text={
-                    "Next base edition shop",
-                    "Joker is free and",
-                    "becomes {C:dark_edition}Negative",
-                },
-		},
-		['it'] = {
-			name="Patto negativo",
-                text={
-					"Il prossimo Jolly edizione base",
-					"nel negozio è gratuito e",
-                    "diventa {C:dark_edition}negativo",
-                },
-		},		
-	}
-})
-
-SMODS.Tag:take_ownership('tag_foil', {
-	loc_txt = {
-		['en-us'] = {
-			name="Foil Tag",
-                text={
-                    "Next base edition shop",
-                    "Joker is free and",
-                    "becomes {C:dark_edition}Foil",
-                },
-		},
-		['it'] = {
-			name="Patto foil",
-                text={
-                    "Il prossimo Jolly edizione base",
-					"nel negozio è gratuito e",
-                    "diventa {C:dark_edition}foil",
-                },
-		},		
-	}
-})
-
-SMODS.Tag:take_ownership('tag_holo', {
-	loc_txt = {
-		['en-us'] = {
-			name="Holographic Tag",
-                text={
-                    "Next base edition shop",
-                    "Joker is free and",
-                    "becomes {C:dark_edition}Holographic",
-                },
-		},
-		['it'] = {
-			name="Patto olografico",
-                text={
-                    "Il prossimo Jolly edizione base",
-					"nel negozio è gratuito e",
-                    "diventa {C:dark_edition}olografico",
-                },
-		},		
-	}
-})
-
---Parte di MOD
+----------------------------------------------------------Jokers----------------------------------------------------------
 
 SMODS.Joker:take_ownership('j_luchador', {
-	loc_txt = {
-		['en-us'] = {
-			name = "El Primoo!!",
-			text = {
-                    "Sell this card to",
-                    "disable the current",
-                    "{C:attention}Boss Blind{}",
-                }
-		},
-		['it'] = {
-			name = "El Primoo!!",
-			text={
-                    "Vendi questa carta per",
-                    "disattivare l'attuale",
-                    "{C:attention}buio boss{}",
-                },
-		},
-	}
+    loc_txt = {
+        ['en-us'] = {
+            name = "El Primoo!!",
+            text = {
+                "Sell this card to",
+                "disable the current",
+                "{C:attention}Boss Blind{}",
+            }
+        },
+        ['it'] = {
+            name = "El Primoo!!",
+            text = {
+                "Vendi questa carta per",
+                "disattivare l'attuale",
+                "{C:attention}buio boss{}",
+            },
+        },
+    }
 })
 
 SMODS.Joker:take_ownership('j_gros_michel', {
-	loc_txt = {
-		['en-us'] = {
-                name="Chiquita's Gros Michel",
-                text = {
-                    "{C:mult}+#1#{} Mult",
-                    "{C:green}#2# in #3#{} chance this",
-                    "card is destroyed",
-                    "at end of round"
-                }
-         },
-		 ['it'] = {
-			name = "Gros Michel Chiquita",
-                text = {
-                    "{C:mult}+#1#{} Molt",
-                    "{C:green}#2# probabilità su #3#{} che",
-                    "questa carta venga distrutta",
-                    "alla fine del round",
-                },
-		},
-	}
+    loc_txt = {
+        ['en-us'] = {
+            name = "Chiquita's Gros Michel",
+            text = {
+                "{C:mult}+#1#{} Mult",
+                "{C:green}#2# in #3#{} chance this",
+                "card is destroyed",
+                "at end of round"
+            }
+        },
+        ['it'] = {
+            name = "Gros Michel Chiquita",
+            text = {
+                "{C:mult}+#1#{} Molt",
+                "{C:green}#2# probabilità su #3#{} che",
+                "questa carta venga distrutta",
+                "alla fine del round",
+            },
+        },
+    }
 })
 
 SMODS.Joker:take_ownership('j_burglar', {
-	loc_txt = {
-		['en-us'] = {
+    loc_txt = {
+        ['en-us'] = {
             name = "Beagle Boy 176-761",
-                text = {
-                    "When {C:attention}Blind{} is selected,",
-                    "gain {C:blue}+#1#{} Hands and",
-                    "{C:attention}lose all discards"
-                }
-         },
-		 ['it'] = {
-			name="Bassotto 176-761",
-                text={
-                    "Quando selezioni un {C:attention}buio{},",
-                    "guadagni {C:blue}+#1#{} mani e",
-                    "{C:attention}perdi tutti gli scarti",
-                },
-		},
-	}
+            text = {
+                "When {C:attention}Blind{} is selected,",
+                "gain {C:blue}+#1#{} Hands and",
+                "{C:attention}lose all discards"
+            }
+        },
+        ['it'] = {
+            name = "Bassotto 176-761",
+            text = {
+                "Quando selezioni un {C:attention}buio{},",
+                "guadagni {C:blue}+#1#{} mani e",
+                "{C:attention}perdi tutti gli scarti",
+            },
+        },
+    }
 })
 
 SMODS.Joker:take_ownership('j_cavendish', {
-	loc_txt = {
-		['en-us'] = {
+    loc_txt = {
+        ['en-us'] = {
             name = "Cattelan's Cavendish",
-                text = {
-                    "{X:mult,C:white} X#1# {} Mult",
-                    "{C:green}#2# in #3#{} chance this",
-                    "card is destroyed",
-                    "at end of round"
-                }
-         },
-		 ['it'] = {
-			name="Cavendish di Cattelan",
-                text={
-                    "{X:mult,C:white} X#1# {} Molt",
-                    "{C:green}#2# probabilità su #3#{} che",
-                    "questa carta venga distrutta",
-                    "alla fine del round",
-                },
-		},
-	}
+            text = {
+                "{X:mult,C:white} X#1# {} Mult",
+                "{C:green}#2# in #3#{} chance this",
+                "card is destroyed",
+                "at end of round"
+            }
+        },
+        ['it'] = {
+            name = "Cavendish di Cattelan",
+            text = {
+                "{X:mult,C:white} X#1# {} Molt",
+                "{C:green}#2# probabilità su #3#{} che",
+                "questa carta venga distrutta",
+                "alla fine del round",
+            },
+        },
+    }
 })
 
 SMODS.Joker:take_ownership('j_vampire', {
-	loc_txt = {
-		['en-us'] = {
+    loc_txt = {
+        ['en-us'] = {
             name = "Kiss-Shot Acerola-Orion Heart-Under-Blade",
             text = {
                 "This Joker gains {X:mult,C:white} X#1# {} Mult",
@@ -260,43 +115,43 @@ SMODS.Joker:take_ownership('j_vampire', {
                 "removes card {C:attention}Enhancement",
                 "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)"
             }
-         },
-		 ['it'] = {
-			name="Kiss-Shot Acerola-Orion Heart-Under-Blade",
-            text={
+        },
+        ['it'] = {
+            name = "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+            text = {
                 "Questo Jolly ottiene {X:mult,C:white} X#1# {} Molt",
                 "per ogni {C:attention}carta potenziata{} da punti giocata",
                 "e rimuove il {C:attention}potenziamento",
                 "{C:inactive}(Attualmente {X:mult,C:white} X#2# {C:inactive} Molt)",
             },
-		},
-	}
+        },
+    }
 })
 
 SMODS.Joker:take_ownership('j_midas_mask', {
-	loc_txt = {
-		['en-us'] = {
+    loc_txt = {
+        ['en-us'] = {
             name = "Stone Mask",
             text = {
                 "All played {C:attention}face{} cards",
                 "become {C:attention}Gold{} cards",
                 "when scored",
             }
-         },
-		 ['it'] = {
-			name="Maschera di Pietra",
-            text={
+        },
+        ['it'] = {
+            name = "Maschera di Pietra",
+            text = {
                 "Tutte le {C:attention}figure{} giocate",
                 "diventano carte {C:attention}dorate{}",
                 "quando assegnano punti",
             },
-		},
-	}
+        },
+    }
 })
 
 SMODS.Joker:take_ownership('j_campfire', {
-	loc_txt = {
-		['en-us'] = {
+    loc_txt = {
+        ['en-us'] = {
             name = "Space Campfire",
             text = {
                 "This Joker gains {X:mult,C:white}X#1#{} Mult",
@@ -304,38 +159,86 @@ SMODS.Joker:take_ownership('j_campfire', {
                 "when {C:attention}Boss Blind{} is defeated",
                 "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)"
             }
-         },
-		 ['it'] = {
-			name="Falò spaziale",
-            text={
+        },
+        ['it'] = {
+            name = "Falò spaziale",
+            text = {
                 "Questo Jolly guadagna {X:mult,C:white}X#1#{} Molt",
                 "per ogni carta {C:attention}venduta{}, si ripristina",
                 "quando sconfiggi il {C:attention}buio boss{}",
                 "{C:inactive}(Attualmente {X:mult,C:white} X#2# {C:inactive} Molt)",
             },
-		},
-	}
+        },
+    }
 })
 
 SMODS.Joker:take_ownership('j_smiley', {
-	loc_txt = {
-		['en-us'] = {
+    loc_txt = {
+        ['en-us'] = {
             name = "Smiley Sprout",
             text = {
                 "Played {C:attention}face{} cards",
                 "give {C:mult}+#1#{} Mult",
                 "when scored"
             }
-         },
-		 ['it'] = {
-			name="Sprout sorridente",
-            text={
+        },
+        ['it'] = {
+            name = "Sprout sorridente",
+            text = {
                 "Le {C:attention}figure{} giocate",
                 "danno {C:mult}+#1#{} Molt",
                 "quando assegnano punti",
             },
-		},
-	}
+        },
+    }
+})
+
+----------------------------------------------------------Planets----------------------------------------------------------
+
+SMODS.Planet:take_ownership('c_eris', {
+    loc_txt = {
+        ['en-us'] = {
+            name = "Eris Greyrat",
+            text = {
+                "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                "{C:attention}#2#",
+                "{C:mult}+#3#{} Mult and",
+                "{C:chips}+#4#{} chips"
+            },
+        },
+        ['it'] = {
+            name = "Eris Greyrat",
+            text = {
+                "{S:0.8}({S:0.8,V:1}liv.#1#{S:0.8}){} Aumenta di livello",
+                "{C:attention}#2#",
+                "{C:mult}+#3#{} Molt e",
+                "{C:chips}+#4#{} fiche",
+            },
+        },
+    }
+})
+
+SMODS.Planet:take_ownership('c_ceres', {
+    loc_txt = {
+        ['en-us'] = {
+            name = "Ceres",
+            text = {
+                "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                "{C:attention}#2#",
+                "{C:mult}+#3#{} Mult and",
+                "{C:chips}+#4#{} chips"
+            }
+        },
+        ['it'] = {
+            name = "Ceres c'è",
+            text = {
+                "{S:0.8}({S:0.8,V:1}liv.#1#{S:0.8}){} Aumenta di livello",
+                "{C:attention}#2#",
+                "{C:mult}+#3#{} Molt e",
+                "{C:chips}+#4#{} fiche",
+            },
+        },
+    }
 })
 ----------------------------------------------
 ------------MOD CODE END----------------------
