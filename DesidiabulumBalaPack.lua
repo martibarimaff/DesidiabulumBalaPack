@@ -17,6 +17,29 @@ SMODS.Atlas { key = "Planet", path = "TarotsDDB.png", px = 71, py = 95, prefix_c
 
 ----------------------------------------------------------Jokers----------------------------------------------------------
 
+SMODS.Joker:take_ownership('j_lucky_cat', {
+    loc_txt = {
+        ['en-us'] = {
+            name = "Black Hanekawa",
+            text = {
+                "This Joker gains {X:mult,C:white} X#1# {} Mult",
+                "every time a {C:attention}Lucky{} card",
+                "{C:green}successfully{} triggers",
+                "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+            }
+        },
+        ['it'] = {
+            name = "Black Hanekawa",
+            text = {
+                "Questo Jolly ottiene {X:mult,C:white} X#1# {} Molt",
+                "ogni volta che una carta {C:attention}fortunata{}",
+                "si attiva {C:green}con successo{}",
+                "{C:inactive}(Attualmente {X:mult,C:white} X#2# {C:inactive} Molt)",
+            },
+        },
+    }
+})
+
 SMODS.Joker:take_ownership('j_luchador', {
     loc_txt = {
         ['en-us'] = {
