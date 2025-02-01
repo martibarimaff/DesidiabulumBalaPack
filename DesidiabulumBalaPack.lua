@@ -11,7 +11,7 @@
 
 sendDebugMessage("Launching DesidiabulumBalaPack...")
 
-SMODS.Atlas { key = "Joker", path = "JokersDDB.png", px = 71, py = 95, prefix_config = { key = false } }
+SMODS.Atlas { key = "JokersDDB", path = "JokersDDB.png", px = 71, py = 95, prefix_config = { key = false } }
 SMODS.Atlas { key = "Tarot", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
 SMODS.Atlas { key = "Planet", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
 
