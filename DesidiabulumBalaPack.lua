@@ -37,7 +37,7 @@ SMODS.Joker:take_ownership('j_trading', {
         },
     },
 	atlas = 'JokerDDB',
-	pos = { x = 10, y = 15 },
+	pos = { x = 9, y = 14 },
 })
 
 SMODS.Joker:take_ownership('j_lucky_cat', {
@@ -62,7 +62,7 @@ SMODS.Joker:take_ownership('j_lucky_cat', {
         },
     },
 	atlas = 'JokerDDB',
-	pos = { x = 6, y = 15 },
+	pos = { x = 5, y = 14 },
 })
 
 SMODS.Joker:take_ownership('j_luchador', {
