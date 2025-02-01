@@ -17,6 +17,27 @@ SMODS.Atlas { key = "Planet", path = "TarotsDDB.png", px = 71, py = 95, prefix_c
 
 ----------------------------------------------------------Jokers----------------------------------------------------------
 
+SMODS.Joker:take_ownership('j_trading', {
+    loc_txt = {
+        ['en-us'] = {
+            name = "Black Lotus",
+            text = {
+                "If {C:attention}first discard{} of round",
+                "has only {C:attention}1{} card, destroy",
+                "it and earn {C:money}$#1#",
+            }
+        },
+        ['it'] = {
+            name = "Black Lotus",
+            text = {
+                "Se il {C:attention}primo scarto{} del round",
+                "ha solo {C:attention}1{} carta, distruggila",
+                "e guadagna {C:money}$#1#",
+            },
+        },
+    }
+})
+
 SMODS.Joker:take_ownership('j_lucky_cat', {
     loc_txt = {
         ['en-us'] = {
