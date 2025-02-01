@@ -11,7 +11,7 @@
 
 sendDebugMessage("Launching DesidiabulumBalaPack...")
 
-SMODS.Atlas { key = "JokersDDB", path = "JokersDDB.png", px = 71, py = 95, prefix_config = { key = false } }
+SMODS.Atlas { key = "JokerDDB", path = "JokersDDB.png", px = 71, py = 95, prefix_config = { key = true } }
 SMODS.Atlas { key = "Tarot", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
 SMODS.Atlas { key = "Planet", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
 
@@ -35,7 +35,9 @@ SMODS.Joker:take_ownership('j_trading', {
                 "e guadagna {C:money}$#1#",
             },
         },
-    }
+    },
+	atlas = 'JokerDDB',
+	pos = { x = 10, y = 15 },
 })
 
 SMODS.Joker:take_ownership('j_lucky_cat', {
@@ -58,7 +60,9 @@ SMODS.Joker:take_ownership('j_lucky_cat', {
                 "{C:inactive}(Attualmente {X:mult,C:white} X#2# {C:inactive} Molt)",
             },
         },
-    }
+    },
+	atlas = 'JokerDDB',
+	pos = { x = 6, y = 15 },
 })
 
 SMODS.Joker:take_ownership('j_luchador', {
