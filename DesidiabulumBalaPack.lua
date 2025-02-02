@@ -11,13 +11,13 @@ SMODS.Atlas { key = "Planet", path = "TarotsDDB.png", px = 71, py = 95, prefix_c
 ----------------------------------------------------------Jokers----------------------------------------------------------
 
 SMODS.Joker:take_ownership('j_trading', {
-	atlas = 'Joker',
-	pos = { x = 9, y = 14 },
+	--[[atlas = 'Joker',
+	pos = { x = 9, y = 14 },]]--
 })
 
 SMODS.Joker:take_ownership('j_lucky_cat', {
-	atlas = 'Joker',
-	pos = { x = 5, y = 14 },
+	--[[atlas = 'Joker',
+	pos = { x = 5, y = 14 },]]--
 })
 
 SMODS.Joker:take_ownership('j_luchador', {
