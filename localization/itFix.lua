@@ -1,7 +1,6 @@
 return {
     descriptions = {
         Joker = {
-            -- this should be the full key of your object, including any prefixes
             j_trading = {
                 name = "Black Lotus",
             },

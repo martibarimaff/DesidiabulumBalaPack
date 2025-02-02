@@ -5,10 +5,9 @@
 sendDebugMessage("Launching DesidiabulumBalaPack...")
 
 SMODS.Atlas { key = "JokersDDB", path = "JokersDDB.png", px = 71, py = 95, prefix_config = { key = true } }
-SMODS.Atlas { key = "Tarot", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
-SMODS.Atlas { key = "Planet", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = false } }
+SMODS.Atlas { key = "TarotsDDB", path = "TarotsDDB.png", px = 71, py = 95, prefix_config = { key = true } }
 
-----------------------------------------------------------Jokers----------------------------------------------------------
+----------------------------------------------------------Jokers-------------------------------------------
 
 SMODS.Joker:take_ownership('j_trading', {
 	atlas = 'JokersDDB',
@@ -60,16 +59,24 @@ SMODS.Joker:take_ownership('j_gros_michel', {
 	pos = { x = 0, y = 0 },
 })
 
-----------------------------------------------------------Planets----------------------------------------------------------
---Does not word idk why
-
-
-SMODS.Planet:take_ownership('c_eris', {
-    
-})
+----------------------------------------------------------Planets------------------------------------------
 
 SMODS.Planet:take_ownership('c_ceres', {
-    
+    atlas = 'TarotsDDB',
+	pos = { x = 2, y = 0 },
 })
+
+SMODS.Planet:take_ownership('c_eris', {
+    atlas = 'TarotsDDB',
+	pos = { x = 1, y = 0 },
+})
+
+----------------------------------------------------------Tarots-------------------------------------------
+
+SMODS.Tarot:take_ownership('c_hanged_man', {
+    atlas = 'TarotsDDB',
+	pos = { x = 0, y = 0 },
+})
+
 ----------------------------------------------
 ------------MOD CODE END----------------------
