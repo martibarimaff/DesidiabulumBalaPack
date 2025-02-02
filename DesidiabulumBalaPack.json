@@ -1,0 +1,14 @@
+{
+	"id": "DesidiabulumBalaPack",
+	"name": "Desidiabulum Balatro Pack",
+	"display_name": "Desidiabulum Balatro Pack",
+	"author": ["martibarimaff"],
+	"description": "Random Bullshit",
+	"prefix": "ddbPack",
+	"main_file": "DesidiabulumBalaPack.lua",
+	"priority": 0,
+	"badge_colour": "",
+	"badge_text_colour": "",
+	"version": "1.0.0",
+	"dependencies": ["Steamodded (>=1.*)","Lovely (>=0.6)"],
+}
