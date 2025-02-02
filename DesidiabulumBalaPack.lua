@@ -21,12 +21,19 @@ SMODS.Joker:take_ownership('j_trading', {
     loc_txt = {
         ['en-us'] = {
             name = "Black Lotus",
+            text = {
+                "If {C:attention}first discard{} of round",
+                "has only {C:attention}1{} card, destroy",
+                "it and earn {C:money}$#1#",
+            }
         },
         ['it'] = {
             name = "Black Lotus",
-        },
-		['itFix'] = {
-            name = "Black Lotus",
+            text = {
+                "Se il {C:attention}primo scarto{} del round",
+                "ha solo {C:attention}1{} carta, distruggila",
+                "e guadagna {C:money}$#1#",
+            },
         },
     },
 	atlas = 'JokerDDB',
@@ -45,15 +52,6 @@ SMODS.Joker:take_ownership('j_lucky_cat', {
             }
         },
         ['it'] = {
-            name = "Black Hanekawa",
-            text = {
-                "Questo Jolly ottiene {X:mult,C:white} X#1# {} Molt",
-                "ogni volta che una carta {C:attention}fortunata{}",
-                "si attiva {C:green}con successo{}",
-                "{C:inactive}(Attualmente {X:mult,C:white} X#2# {C:inactive} Molt)",
-            },
-        },
-		['itFix'] = {
             name = "Black Hanekawa",
             text = {
                 "Questo Jolly ottiene {X:mult,C:white} X#1# {} Molt",
