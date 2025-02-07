@@ -1,6 +1,9 @@
 return {
     descriptions = {
         Joker = {
+			j_to_the_moon={
+				name="Stonks!",
+            },
             j_trading = {
                 name = "Black Lotus",
             },
