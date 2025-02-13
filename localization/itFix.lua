@@ -1,6 +1,9 @@
 return {
     descriptions = {
         Joker = {
+			j_mail={
+				name="Rimborso per Violet",
+            },
 			j_to_the_moon={
                 name="Stonks!",
             },

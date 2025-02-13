@@ -1,6 +1,9 @@
 return {
     descriptions = {
         Joker = {
+			j_mail={
+				name="Violet's Rebate",
+            },
 			j_to_the_moon={
 				name="Stonks!",
             },
