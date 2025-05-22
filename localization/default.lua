@@ -1,6 +1,9 @@
 return {
     descriptions = {
         Joker = {
+			j_blueprint={
+				name="BluePrince",
+            },
 			j_mail={
 				name="Violet's Rebate",
             },
