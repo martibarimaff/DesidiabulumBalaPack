@@ -1,6 +1,9 @@
 return {
     descriptions = {
         Joker = {
+			j_joker={
+				name="Joker",
+            },
 			j_blueprint={
 				name="BluePrince",
             },
