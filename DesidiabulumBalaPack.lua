@@ -9,6 +9,11 @@ SMODS.Atlas { key = "TarotsDDB", path = "TarotsDDB.png", px = 71, py = 95, prefi
 
 ----------------------------------------------------------Jokers-------------------------------------------
 
+SMODS.Jocker:take_ownership('j_troubadour', {
+	atlas = 'JokersDDB',
+	pos = { x = 4, y = 1 },
+})
+
 SMODS.Joker:take_ownership('j_joker', {
 	atlas = 'JokersDDB',
 	pos = { x = 3, y = 1 },

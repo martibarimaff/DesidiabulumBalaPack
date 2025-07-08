@@ -1,6 +1,9 @@
 return {
     descriptions = {
         Joker = {
+			j_troubadour={
+				name="Ado",
+			},
 			j_joker={
 				name="Joker",
             },
